@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <!-- =====BOX ICONS===== -->
+    <link rel="icon" href="static/img/logo.svg" >
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <title>Mahedi Hasan</title>
+</head>
+
+<body  class="dark">
+<!--===== HEADER =====-->
+<header class="page__header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#home" class="nav__logo">
+                <img src="static/img/logo.svg" alt="Auntor"  style="width: 70px; height: 70px;"/>
+              </a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div id="tgl" onclick="change()" class="fas fa-moon"></div>
+        
+    </nav>
+</header>
+<!--=====END HEADER =====-->
+
+<main class="l-main">
+<!--===== HOME =====-->   
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Auntor</span><br> Software Engineer</h1>
+
+            <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+            <a href="https://www.linkedin.com/in/auntor" class="home__social-icon"><i class='bx bxl-linkedin' alt='linkedin' style='color:#0a80dc'  ></i></a>
+            <a href="mailto:mmhauntor@gmail.com" class="home__social-icon"><i class='bx bxl-gmail' alt='gmail' style='color:#ff0404'></i></a>
+            <a href="https://www.github.com/mhauntor" class="home__social-icon"><i class='bx bxl-github' alt='github' style='color:#000000' ></i></a>
+            <a href="https://gitlab.com/mhauntor" class="home__social-icon"><i class='bx bxl-gitlab' alt='gitlab' style='color:#ff0404'></i></a>
+        </div>
+
+        <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    <image class="home__blob-img" x="60" y="80" href="static/img/perfil.png"/>
+                </g>
+            </svg>
+        </div>
+    </section>    
+ <!--=====END HOME =====-->
+
+<!--===== ABOUT =====-->
+<section class="about section " id="about" style="padding-bottom: 10%;">
+    <h2 class="section-title">About</h2>
+    <div class="about__container bd-grid">
+        <div class="about__img">
+            <img src="static/img/about.jpg" alt="">
+        </div>
+        
+        <div>
+            <h1 class="about__subtitle">I'am Mahedi Hasan Auntor</h1>
+            <p class="about__text" >As a Python developer specializing in back-end technologies, with a particular focus on the Django framework and Django REST API, my objective is to advance my career by leveraging my expertise in these areas. I am dedicated to continuously learning and staying up-to-date with the latest advancements in Django and best practices in software development.</p>           
+        </div>                              
+    </div>
+</section>
+<!--=====End ABOUT =====-->
+
+<!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <h1 class="skills__subtitle">Profesional Skills</h1>
+        <p class="skills__text">I have a versatile skill set in software development and design. My programming expertise includes C, Python, and Java. Additionally, I have experience working with frameworks like Django for web development and creating REST APIs. I am familiar with API tools such as Postman and Thunder client Extension. In the field of machine learning, I have knowledge of Convolutional Neural Networks (CNN). Database management is another area of strength for me. I am experienced in using Git for version control. I am comfortable working with both Linux and Windows operating systems. With these skills, I am well-equipped to handle various software development projects, including programming, web development, database management, and version control.</p>
+    
+        <div class="skill__container">
+            <div class="card" style="--clr: #3bf04a">
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Programming</h3>
+                <ul class="logo-list">
+                    <li><i class="fab fa-cuttlefish skills__icon" style="color: #007396;"></i> C</li>
+                    <li><i class="fab fa-python skills__icon" style="color: #3776AB;"></i> Python</li>
+                    <li><i class="fab fa-java skills__icon" style="color: #007396;"></i> Java</li>
+                  </ul>
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" style="--clr: #893bf0">
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="logo-electron"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Framework</h3>
+                <ul class="logo-list">
+                    <li><i class="fab fa-python skills__icon" style="color: #3776AB;"></i> Django</li>
+                    <li><i class="fas fa-cogs skills__icon" style="color: #336791;"></i> REST API</li>
+                  </ul>
+                        
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="card" style="--clr: #3bf086">
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="server-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Database</h3>
+                <ul class="logo-list">
+                    <li><i class="fas fa-database skills__icon" style="color: #336791;"></i> PostgreSQL</li>
+                    <li><i class="fas fa-database skills__icon" style="color: #4479A1;"></i> MySQL</li>
+                    <li><i class="fas fa-database skills__icon" style="color: #003B57;"></i> SQLite</li>
+                  </ul>
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="--clr: #ff3737">
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="rocket-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>API Platform</h3>
+                <ul class="logo-list">
+                    <li><i class="fas fa-rocket skills__icon"" style="color: #FF6C37;"></i> Postman</li>
+                    <li><i class="fas fa-bolt skills__icon" style="color: #FFA500;"></i> Thunder Client Extension</li>
+                  </ul>
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card" style="--clr: #d55d00">
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="extension-puzzle-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Machine Learning</h3>
+                        <ul class="logo-list">
+                            <li><i class="fas fa-brain skills__icon" style="color: #FF6F00;"></i> CNN</li>
+                        </ul>
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" style="--clr: #65b9b6">
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="logo-codepen"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Front-End</h3>
+                <ul class="logo-list">
+                    <li><i class="fab fa-html5 skills__icon" style="color: #E34F26;"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt skills__icon" style="color: #1572B6;"></i> CSS</li>
+                    <li><i class="fab fa-bootstrap skills__icon" style="color: #563D7C;"></i> Bootstrap</li>
+                    <li><i class="fab fa-js skills__icon" style="color: #F7DF1E;"></i> JavaScript</li>
+                  </ul>
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" style="--clr: #F05032">
+                
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Tools & Technology</h3>
+                <ul class="logo-list">
+                    <li><i class="fab fa-git skills__icon" style="color: #F05032;"></i> Git</li>
+                  </ul>
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card" style="--clr: #bd8d00">
+                <div class="box">
+                    <div class="icon">
+                        <div class="iconbox">
+                            <ion-icon name="logo-tux"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>OS</h3>
+                <ul class="logo-list">
+                    <li><i class="fab fa-linux skills__icon" style="color: #FCC624;"></i> Linux</li>
+                    <li><i class="fab fa-windows skills__icon" style="color: #0078D6;"></i> Windows</li>
+                  </ul>
+                        <!--<a href="#">Read More</a>-->
+                    </div>
+                </div>
+            </div>
+    
+            
+        </div>
+
+    </section>
+<!--===== END SKILL =====-->  
+
+<!--===== WORK =====-->
+    <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="work__container">
+            <div class="card" style="--clr: #009688">
+                <div class="img-box">
+                    <img src="{% static 'img/work1.png' %}">
+                </div>
+                <div class="content">
+                    <h2>CNN Project</h2>
+                    <h4>Detection of potato diseases</h4>
+                    <p>Detect potato diseases using deep learning.Worked on 6 different architecture of CNN.
+                    </p>
+                    <a href="https://sites.google.com/view/detection-of-potato-diseases/">Read More</a>
+                </div>
+            </div>
+            <div class="card" style="--clr: #FF3E7F">
+                <div class="img-box">
+                    <img src="{% static 'img/work2.png' %}">
+                </div>
+                <div class="content">
+                    <h2>Rest Framework</h2>
+                    <h4>API Project</h4>
+                    <p>
+                        Implement Tokenization using JWT and Django Rest Framework.(Access Token refresh token)
+                    </p>
+                    <a href="https://www.linkedin.com/posts/auntor_django-djangorestframework-api-activity-7067446023689801728-7vsj?utm_source=share&utm_medium=member_desktop">Read More</a>
+                </div>
+            </div>
+            <div class="card" style="--clr: #03A9F4">
+                <div class="img-box">
+                    <img src="https://i.postimg.cc/26fms7F7/img-03.png">
+                </div>
+                <div class="content">
+                    <h2>Flowers</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Architecto, hic? Magnam eum error saepe doloribus corrupti
+                        repellat quisquam alias doloremque!
+                    </p>
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <div class="input-container ic2">
+              <input id="name" class="contact__input" type="text" placeholder=" " />
+              <div class="cut cut-short"></div>
+              <label for="name" class="placeholder">Name</label>
+            </div>
+      
+            <div class="input-container ic2">
+              <input id="email" class="contact__input" type="email" placeholder=" " />
+              <div class="cut cut-short"></div>
+              <label for="email" class="placeholder">Email</label>
+            </div>
+      
+            <div class="input-container ic2">
+              <textarea id="message" class="contact__input" placeholder=" " rows="6"></textarea>
+              <div class="cut"></div>
+              <label for="message" class="placeholder">Message</label>
+            </div>
+      
+            <button type="submit" class="submit">Submit</button>
+          </form>
+        </div>
+    </section>
+</main>
+
+<!--===== FOOTER =====-->
+
+<footer class="footer">
+    <div>
+
+    
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax" style="color: #35c063">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(53, 192, 99, 0.7)" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(53, 192, 99, 0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(53, 192, 99, 0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#35c063" />
+        </g>
+        </svg>
+    </div>
+    <div class="flooter__content">
+        <p class="footer__title">Auntor</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/mhauntor" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/mmhauntor/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; Auntor. All rigths reserved</p>
+    </div>
+        
+</footer>
+
+
+
+
+
+
+
+<!--=====END FOOTER =====-->
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
+    <!--===== MAIN JS =====-->
+    <script  src="static/js/scripts.js"></script>
+</body>
+
+</html>
